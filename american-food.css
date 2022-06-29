@@ -95,8 +95,8 @@ nav ul li {
     position: inherit;
 }
 .tag{
-    width: 11vw;
-    height: 24vh;
+    width: 40%;
+    height: 46%;
     border-radius: 50%;
     font-family: Franklin Gothic Medium;
     background: #bf2222;
@@ -253,8 +253,18 @@ nav ul li {
     position: relative;
     margin-top: 127px;
 }
-.sidbur,.bottle,.plate{
+.sidbur{
     position: absolute;
+}
+.bottle{
+    position:absolute;
+    left: 130px;
+    top: 165px;
+}
+.plate{
+    position: absolute;
+    right: 0;
+    top: 390%;
 }
 .booktable{
     text-align: center;
@@ -295,4 +305,65 @@ nav ul li {
     background: red;
     border: none;
     border-radius: 10px;
+}
+.endgroup{
+    width: 85%;
+    margin-bottom: 70px;
+    margin: auto;
+   margin-top: 150px;
+   margin-bottom: 70px;
+    background:url(americanfood/endback.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+.end{
+    display: flex;
+}
+.lasthous{
+    width: 50%;
+    padding: 37px;
+    padding-right: 0;
+}
+.lasthous img{
+    width: 215px;
+}
+.lasthous p{
+    text-align: justify;
+    width: 90%;
+    font-size: 13px;
+}
+.addrs{
+    width: 50%;
+    margin: auto;
+    line-height: 27px;
+    padding-left: 170px;
+    padding-top: 50px;
+}
+.addrs ul li{
+    list-style:none;
+}
+.addrs ul li a{
+    color: white;
+    text-decoration:none ;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.iconfont{
+    display: flex;
+    margin: 0;
+}
+.iconfont li{
+    padding: 8px;
+    list-style: none;
+}
+.company,.social{
+    padding: 23px;
+
+}
+.social{
+    padding-bottom: 20px;
+    padding-top: 0;
 }
