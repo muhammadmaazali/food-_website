@@ -1,0 +1,298 @@
+body{
+    margin:0;
+    color: #3d2514;
+}
+.group1{
+    padding-bottom: 100px;
+    background: url(americanfood/group1background.png);
+}
+.first{
+    color:#3d2514;
+   display: flex;
+   justify-content: space-between;
+    
+    width: 100%;
+}
+.group1 a{
+    color:#3d2514;
+    text-decoration: none;
+}
+.logo{
+    padding: 10px;
+}
+.delivery{
+    display: flex;
+    margin-top: 30px;
+    padding: 15px;
+    justify-content: space-around;
+}
+.delivery img{
+    height: 56%;
+}
+.group1 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+span{
+    font-size: 15px;
+}
+nav ul{
+    display: flex;
+    color:#3d2514 ;
+    justify-content: flex-end;
+}
+nav ul li {
+    padding: 10px;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+.house{
+    padding-left: 40px;
+    
+}
+.taste{
+    font-size: 23px;
+    border: 1px dashed #3d2514;
+    width: max-content;
+}
+.burger{
+    font-size:60px;
+   width: max-content;
+   text-shadow: 4px 3px 2px white;
+}
+.burger h1{
+    margin: 0;
+}
+.week{
+    width: max-content;
+    font-size: 72px;
+    text-shadow: 4px 3px 2px white;
+}
+.week h2{
+    margin: 0;
+}
+.product1{
+    position: relative;
+    top: 27px;
+    display: flex;
+    align-items: baseline;
+}
+.fries img{
+    position: absolute;
+    left: -154px;
+    top: 75px;
+}
+.mainbur{
+    position: relative;
+    z-index: 1;
+}
+.drinks{
+    top: -11px;
+    left: -85px;
+    position: inherit;
+}
+.tag{
+    width: 11vw;
+    height: 24vh;
+    border-radius: 50%;
+    font-family: Franklin Gothic Medium;
+    background: #bf2222;
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 24vw;
+}
+.pricemain{
+    width: 85%;
+    height: 84%;
+    border: 2px dashed white;
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 12%;
+    box-sizing: border-box;
+    margin: auto;
+}
+.food{
+    width: 100%;
+}
+.dol{
+    
+    font-size: 60px;
+}
+.pri{
+    font-size: 28px;
+}
+.only{
+    font-size: 23px;
+    letter-spacing: 17px;
+}
+.group2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 74px;
+}
+.box1{
+    width: 597px;
+    height: 420px;
+    color: white;
+    background: url(americanfood/box1.png);
+}
+.double{
+    padding: 26px;
+    margin-top: -53px;
+}
+.box2{
+    width: 596px;
+    height: 191px;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    color: white;
+    background: url(americanfood/box2.png);
+}
+.box3{
+    height: 191px;
+    padding: 0px;
+    color: white;
+    background: url(americanfood/box3.png);
+}
+.bo1,.bo2,.bo3{
+    padding: 30px;
+}
+.today{
+    font-size: 20px;
+}
+.popular{
+    font-size: 30px;
+    font-weight: bold;
+}
+.fun,.taste{
+    font-size: 30px;
+    font-weight: bold;
+}
+.fresh{
+    font-size: 23px;
+    font-weight: bold;
+}
+.b1{
+    text-align: center;
+}
+.buttn{
+    padding: 8px;
+    background: #ffc045;
+    border: none;
+    color: #3d2514;
+    font-size: 17px;
+    font-weight: 900;
+    text-align: center;
+}
+.enjoy{
+    text-align: center;
+    font-size: 26px;
+}
+.enjoy h1{
+    font-weight: bolder;
+}
+.enjoy p{
+    width: 80%;
+    font-size: 25px;
+    margin: auto;
+}
+.threepro{
+    display: flex;
+    margin-top: 66px;
+    padding: 10px;
+    text-align: center;
+    color: #3d2514;
+}
+.threepro h2{
+    font-size: 34px;
+}
+.cheesybur{
+    margin-top: -31px;
+}
+.burbt{
+    font-size: 27px;
+    padding: 13px;
+    font-weight: bolder;
+    background: #bf2222;
+    color: white;
+    border: none;
+}
+.maindot{
+    width: 100%;
+    margin-top: 70px;
+}
+.dotitems{
+    box-shadow: 2px 2px 5px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.dis{
+    width: 50%;
+}
+.discover{
+    width: 50%;
+    padding: 32px;
+}
+.discover h1{
+    margin: 0;
+    font-size: 45px;
+}
+.disbur img{
+    height: 78%;
+    width: 90%;
+    padding: 27px;
+}
+.yourtable{
+    position: relative;
+    margin-top: 127px;
+}
+.sidbur,.bottle,.plate{
+    position: absolute;
+}
+.booktable{
+    text-align: center;
+}
+.booktable h2{
+    margin: 0;
+    font-size: 33px;
+    font-weight: 100;
+}
+.booktable h1{
+    font-family: impact;
+    margin: 0;
+    font-size:90px;
+}
+.table{
+    margin-top: 64px;
+    text-align: center;
+}
+.table input{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 25%;
+    height: 50px;
+    margin: 20px;
+}
+.table input[type="text"]::placeholder{
+    padding: 10px;
+    font-size: 15px;
+}
+.table button{
+    width: 26%;
+    FONT-SIZE: 26px;
+    font-weight: 800;
+    height: 55px;
+    padding: 0px;
+    margin: 16px;
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 10px;
+}
