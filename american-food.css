@@ -5,6 +5,7 @@ body{
 .group1{
     padding-bottom: 100px;
     background: url(americanfood/group1background.png);
+    overflow: hidden;
 }
 .first{
     color:#3d2514;
@@ -131,16 +132,19 @@ nav ul li {
     letter-spacing: 17px;
 }
 .group2{
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 74px;
 }
 .box1{
-    width: 597px;
+    width: 535px;
     height: 420px;
     color: white;
     background: url(americanfood/box1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .double{
     padding: 26px;
@@ -153,12 +157,16 @@ nav ul li {
     margin-top: 10px;
     color: white;
     background: url(americanfood/box2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .box3{
     height: 191px;
     padding: 0px;
     color: white;
     background: url(americanfood/box3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .bo1,.bo2,.bo3{
     padding: 30px;
@@ -203,7 +211,9 @@ nav ul li {
     margin: auto;
 }
 .threepro{
+    overflow: hidden;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 66px;
     padding: 10px;
     text-align: center;
@@ -231,6 +241,7 @@ nav ul li {
     box-shadow: 2px 2px 5px;
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
 }
 .dis{
