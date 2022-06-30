@@ -170,5 +170,74 @@
     }
 }
 @media only screen and (max-width: 768px )and (min-width:320px){
+    .first {
+        color: #3d2514;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
     
+    .logo {
+        padding: 10px;
+        padding-bottom: 0;
+    text-align: center;
+    }
+    .delivery {
+        display: flex;
+        margin-top: 0px;
+        padding-bottom: 0;
+        padding: 0px;
+        justify-content: center;
+        align-items: end;
+    }
+    .delivery img {
+        padding: 2px;
+        width: 7%;
+    }
+    .delivery span {
+        font-size: 12px;
+    }
+    .group1 a {
+        font-size: 10px;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .group1 ul {
+        font-size: 11px;
+        margin: -2px;
+        padding: 0;
+    }
+    .two {
+    text-align: -webkit-center;
+    }
+    .house {
+        width: 100%;
+    }
+    .greattaste {
+    font-size: 17px;
+        width: max-content;
+        text-align: center;
+    }
+    .burger {
+        width: 100%;
+        text-align: center;
+    }
+    .burger h1 {
+    margin: 0;
+        font-size: 40px;
+        width: 100%;
+    }
+    .week {
+        width: 100%;
+        text-align: center;
+    }
+    .week h2 {
+        margin: 0;
+        font-size: 32px;
+    }
+    .product1 img {
+        display: none;
+    }  
 }
