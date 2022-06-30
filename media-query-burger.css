@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1440px){
+    .threepro{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 1250px){
+    .taste{
+        font-size: 24px;
+    }
+    .burger{
+        font-size: 50px;
+    }
+    .week{
+        font-size: 50px;
+    }
+    .bottle{
+        left:105px ;
+    }
+} 
+@media only screen and (max-width: 1024px){
+
+}
