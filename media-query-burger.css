@@ -2,6 +2,8 @@
     .threepro{
         flex-wrap: wrap;
     }
+    .plate{
+        top: 242em;
 }
 @media only screen and (max-width: 1250px){
     .taste{
@@ -18,5 +20,152 @@
     }
 } 
 @media only screen and (max-width: 1024px){
+   .plate img,.sidbur img{
+    width: 50%;
+   }
+   .bottle{
+    left: 65px;
+   }
+    .plate{
+        top: 314em;
+            position: absolute;
+            right: -10em;
+    }
+}
+@media only screen and (max-width: 768px){
+    .greattaste{
+        font-size: 17px;
+    }
+    .burger{
+        font-size: 37px;
+    }
+    .week{
+        font-size: 40px;
+    }
+    .taste {
+        font-size: 27px;
+    }
+    .enjoy p{    
+        font-size: 18px;
+        }
+        .enjoy h1{
+        font-size:32px;
+        }
+    .vegbur img{
+        width: 70%;
+    }
+    .vegbur h2{
+        margin: 0;
+    }
+    .vegbur p{
+        margin-top: 0;
+    }
+    .cheesybur img{
+        width: 70%;
+    }
+    .cheesybur h2{
+        margin: 0;
 
+    }
+    .cheesybur p{
+        margin-top: 0;
+    }
+    .thandhoribur img{
+        width: 70%;
+    }
+    .thandhoribur h2{
+        margin: 0;
+    }
+    .thandhoribur p{
+        margin-top: 0;
+    }
+    .dotitems{
+        width: 90%;
+    }
+    .discover {
+        width:44%;
+        padding: 32px;
+        padding-right: 0;
+        padding-top: 22px;
+    }
+    .discover h1{
+        font-size: 20px;
+    }
+    .disbur{
+    
+        width: 45%;
+    }
+    .disbur img {
+        width: 100%;
+        padding: 27px;
+        padding-top: 45px;
+    }
+    .yourtable{
+        margin-top: 40px;
+    
+    }
+    .yourtable {
+        margin-top: 40px;
+    }
+    .sidbur {
+        top: -22px;
+    }
+    .sidbur img {
+    width: 50%;
+    }
+    .booktable h2 {
+        font-size: 20px;
+    }
+    .booktable h1 {
+        font-size: 48px;
+    }
+    .bottle {
+        left: 50px;
+        top: 90px;
+    }
+    .bottle img{
+        width: 50%;
+    }
+    .table {
+        margin-top: 9px;
+    }
+    .table input {
+        width: 30%;
+        height: 40px;
+        margin: 5px;
+    }
+    .table button {
+        width: 32%;
+        font-size: 19px;
+        height: 55px;
+        margin: 2px;
+    }
+    .plate {
+        top: 234em;
+        right: -26%;
+    }
+    .plate img{
+        width: 39%;
+    }
+    .endgroup {
+        width: 90%;
+        margin-top: 80px;
+        margin-bottom: 0;
+    }
+    .lasthous {
+        width: 50%;
+        padding: 20px 0 0 20px;
+    }
+    .addrs {
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    .company{
+        padding: 27px;
+        font-size: 12px;
+    }
+    .social {
+        padding-bottom: 0px;
+        padding-top: 18px;
+    }
 }
