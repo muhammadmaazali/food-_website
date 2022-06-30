@@ -3,7 +3,7 @@
         flex-wrap: wrap;
     }
     .plate{
-        top: 242em;
+        top: 231em;
 }
 @media only screen and (max-width: 1250px){
     .taste{
@@ -27,7 +27,7 @@
     left: 65px;
    }
     .plate{
-        top: 314em;
+        top: 308em;
             position: absolute;
             right: -10em;
     }
