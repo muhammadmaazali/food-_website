@@ -277,4 +277,23 @@
         .fresh {
             font-size: 17px;
         }  
+        .vegbur, .cheesy, .thandhoribur {
+            padding:0px;
+        }
+        .vegbur img {
+            width: 60%;
+        }
+        .threepro h2 {
+            font-size: 24px;
+        }
+        .burbt {
+            font-size: 14px;
+            padding: 8px;
+        }
+        .cheesybur img{
+        width:60%;
+        }
+        .thandhoribur img{
+        width:60%;
+        }
 }
