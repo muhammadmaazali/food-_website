@@ -239,5 +239,42 @@
     }
     .product1 img {
         display: none;
-    }  
+    }
+    .group2 {
+        padding: 15px;
+           
+         
+        }
+        .box1 {
+            width: 535px;
+            height: 300px;
+        }
+        .bo1, .bo2, .bo3 {
+            padding: 11px;
+        }
+        .today {
+            font-size: 13px;
+        }
+        .popular {
+            font-size: 25px;
+        }
+        .box2 {
+            width: 400px;
+            height: 130px;
+        }
+        .today {
+            font-size: 13px;
+        }
+        .fun{
+            font-size: 23px;
+        }
+        .taste {
+            font-size: 22px;
+        }
+         .box3{
+           height: 130px;
+        }
+        .fresh {
+            font-size: 17px;
+        }  
 }
