@@ -1,175 +1,225 @@
-@media only screen and (max-width: 1440px){
-    .threepro{
+@media only screen and (max-width: 1440px) {
+    .threepro {
         flex-wrap: wrap;
     }
-    .plate{
+
+    .plate {
         top: 231em;
+    }
 }
-@media only screen and (max-width: 1250px){
-    .taste{
+
+@media only screen and (max-width: 1250px) {
+    .taste {
         font-size: 24px;
     }
-    .burger{
+
+    .burger {
         font-size: 50px;
     }
-    .week{
+
+    .week {
         font-size: 50px;
     }
-    .bottle{
-        left:105px ;
-    }
-} 
-@media only screen and (max-width: 1024px){
-   .plate img,.sidbur img{
-    width: 50%;
-   }
-   .bottle{
-    left: 65px;
-   }
-    .plate{
-        top: 308em;
-            position: absolute;
-            right: -10em;
+
+    .bottle {
+        left: 105px;
     }
 }
-@media only screen and (max-width: 768px){
-    .greattaste{
+
+@media only screen and (max-width: 1024px) {
+
+    .plate img,
+    .sidbur img {
+        width: 50%;
+    }
+
+    .bottle {
+        left: 65px;
+    }
+
+    .plate {
+        top: 308em;
+        position: absolute;
+        right: -10em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .greattaste {
         font-size: 17px;
     }
-    .burger{
+
+    .burger {
         font-size: 37px;
     }
-    .week{
+
+    .week {
         font-size: 40px;
     }
+
     .taste {
         font-size: 27px;
     }
-    .enjoy p{    
+
+    .enjoy p {
         font-size: 18px;
-        }
-        .enjoy h1{
-        font-size:32px;
-        }
-    .vegbur img{
+    }
+
+    .enjoy h1 {
+        font-size: 32px;
+    }
+
+    .vegbur img {
         width: 70%;
     }
-    .vegbur h2{
+
+    .vegbur h2 {
         margin: 0;
     }
-    .vegbur p{
+
+    .vegbur p {
         margin-top: 0;
     }
-    .cheesybur img{
+
+    .cheesybur img {
         width: 70%;
     }
-    .cheesybur h2{
+
+    .cheesybur h2 {
         margin: 0;
 
     }
-    .cheesybur p{
+
+    .cheesybur p {
         margin-top: 0;
     }
-    .thandhoribur img{
+
+    .thandhoribur img {
         width: 70%;
     }
-    .thandhoribur h2{
+
+    .thandhoribur h2 {
         margin: 0;
     }
-    .thandhoribur p{
+
+    .thandhoribur p {
         margin-top: 0;
     }
-    .dotitems{
+
+    .dotitems {
         width: 90%;
     }
+
     .discover {
-        width:44%;
+        width: 44%;
         padding: 32px;
         padding-right: 0;
         padding-top: 22px;
     }
-    .discover h1{
+
+    .discover h1 {
         font-size: 20px;
     }
-    .disbur{
-    
+
+    .disbur {
+
         width: 45%;
     }
+
     .disbur img {
         width: 100%;
         padding: 27px;
         padding-top: 45px;
     }
-    .yourtable{
+
+    .yourtable {
         margin-top: 40px;
-    
+
     }
+
     .yourtable {
         margin-top: 40px;
     }
+
     .sidbur {
         top: -22px;
     }
+
     .sidbur img {
-    width: 50%;
+        width: 50%;
     }
+
     .booktable h2 {
         font-size: 20px;
     }
+
     .booktable h1 {
         font-size: 48px;
     }
+
     .bottle {
         left: 50px;
         top: 90px;
     }
-    .bottle img{
+
+    .bottle img {
         width: 50%;
     }
+
     .table {
         margin-top: 9px;
     }
+
     .table input {
         width: 30%;
         height: 40px;
         margin: 5px;
     }
+
     .table button {
         width: 32%;
         font-size: 19px;
         height: 55px;
         margin: 2px;
     }
+
     .plate {
         top: 234em;
         right: -26%;
     }
-    .plate img{
+
+    .plate img {
         width: 39%;
     }
+
     .endgroup {
         width: 90%;
         margin-top: 80px;
         margin-bottom: 0;
     }
+
     .lasthous {
         width: 50%;
         padding: 20px 0 0 20px;
     }
+
     .addrs {
         padding-left: 0px;
         padding-top: 50px;
     }
-    .company{
+
+    .company {
         padding: 27px;
         font-size: 12px;
     }
+
     .social {
         padding-bottom: 0px;
         padding-top: 18px;
     }
 }
-@media only screen and (max-width: 768px )and (min-width:320px){
+
+@media only screen and (max-width: 768px)and (min-width:320px) {
     .first {
         color: #3d2514;
         display: flex;
@@ -177,12 +227,13 @@
         justify-content: space-between;
         width: 100%;
     }
-    
+
     .logo {
         padding: 10px;
         padding-bottom: 0;
-    text-align: center;
+        text-align: center;
     }
+
     .delivery {
         display: flex;
         margin-top: 0px;
@@ -191,109 +242,141 @@
         justify-content: center;
         align-items: end;
     }
+
     .delivery img {
         padding: 2px;
         width: 7%;
     }
+
     .delivery span {
         font-size: 12px;
     }
+
     .group1 a {
         font-size: 10px;
     }
-    nav ul{
+
+    nav ul {
         justify-content: center;
     }
+
     .group1 ul {
         font-size: 11px;
         margin: -2px;
         padding: 0;
     }
+
     .two {
-    text-align: -webkit-center;
+        text-align: -webkit-center;
     }
+
     .house {
         width: 100%;
     }
+
     .greattaste {
-    font-size: 17px;
+        font-size: 17px;
         width: max-content;
         text-align: center;
     }
+
     .burger {
         width: 100%;
         text-align: center;
     }
+
     .burger h1 {
-    margin: 0;
+        margin: 0;
         font-size: 40px;
         width: 100%;
     }
+
     .week {
         width: 100%;
         text-align: center;
     }
+
     .week h2 {
         margin: 0;
         font-size: 32px;
     }
+
     .product1 img {
         display: none;
     }
+
     .group2 {
         padding: 15px;
-           
-         
-        }
-        .box1 {
-            width: 535px;
-            height: 300px;
-        }
-        .bo1, .bo2, .bo3 {
-            padding: 11px;
-        }
-        .today {
-            font-size: 13px;
-        }
-        .popular {
-            font-size: 25px;
-        }
-        .box2 {
-            width: 400px;
-            height: 130px;
-        }
-        .today {
-            font-size: 13px;
-        }
-        .fun{
-            font-size: 23px;
-        }
-        .taste {
-            font-size: 22px;
-        }
-         .box3{
-           height: 130px;
-        }
-        .fresh {
-            font-size: 17px;
-        }  
-        .vegbur, .cheesy, .thandhoribur {
-            padding:0px;
-        }
-        .vegbur img {
-            width: 60%;
-        }
-        .threepro h2 {
-            font-size: 24px;
-        }
-        .burbt {
-            font-size: 14px;
-            padding: 8px;
-        }
-        .cheesybur img{
-        width:60%;
-        }
-        .thandhoribur img{
-        width:60%;
-        }
+    }
+
+    .box1 {
+        width: 535px;
+        height: 300px;
+    }
+
+    .bo1,
+    .bo2,
+    .bo3 {
+        padding: 11px;
+    }
+
+    .today {
+        font-size: 13px;
+    }
+
+    .popular {
+        font-size: 25px;
+    }
+
+    .box2 {
+        width: 400px;
+        height: 130px;
+    }
+
+    .today {
+        font-size: 13px;
+    }
+
+    .fun {
+        font-size: 23px;
+    }
+
+    .taste {
+        font-size: 22px;
+    }
+
+    .box3 {
+        height: 130px;
+    }
+
+    .fresh {
+        font-size: 17px;
+    }
+
+    .vegbur,
+    .cheesy,
+    .thandhoribur {
+        padding: 0px;
+    }
+
+    .vegbur img {
+        width: 60%;
+    }
+
+    .threepro h2 {
+        font-size: 24px;
+    }
+
+    .burbt {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .cheesybur img {
+        width: 60%;
+    }
+
+    .thandhoribur img {
+        width: 60%;
+    }
 }
