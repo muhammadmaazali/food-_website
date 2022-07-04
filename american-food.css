@@ -176,16 +176,16 @@ font-size: 20px;
     text-align: center;
     color: #3d2514;
 }
-.vegbur,.cheesy,.thandhoribur{
+.vegbur,.cheesybur,.thandhoribur{
     width: 370px;
     padding: 10px;
 }
 .vegbur img{
     width: 80%;
 }
-.cheesy img{
-    max-width: 296px;
-    min-height: 305px;
+.cheesybur img{
+    width: 70%;
+    min-height: 296px;
     max-height: 296px;
 }
 .thandhoribur img{
@@ -209,24 +209,28 @@ font-size: 20px;
 }
 .dotitems{
     box-shadow: 2px 2px 5px;
-    width: 80%;
+    width: 90%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: auto;
 }
 .dis{
     width: 50%;
 }
 .discover{
-    width: 50%;
-    padding: 32px;
+    width: 47%;
+    padding: 25px 0 0 25px;
 }
 .discover h1{
     margin: 0;
     font-size: 45px;
 }
 .disbur img{
-    width: 90%;
-    padding: 27px;
+    width: 100%;
+    max-width: 543px;
+    max-height: 271px;
+    padding: 10px 0;
 }
 .yourtable{
     position: relative;
