@@ -101,17 +101,18 @@ nav ul li {
     margin-top: 9px;
 }
 .box2{
-    width: 596px;
-    height: 191px;
-    margin-bottom: 21px;
-    margin-top: 0px;
+    min-height: 130px;
+    min-width: 400px;
+    margin-bottom: 15px;
+    /* margin-top: 0px; */
     color: white;
     background: url(americanfood/box2.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .box3{
-    height: 191px;
+    /* height: 191px; */
+    min-height: 130px;
     padding: 0px;
     color: white;
     background: url(americanfood/box3.png);
@@ -129,14 +130,21 @@ nav ul li {
     font-weight: bold;
 }
 .fun,.taste{
-    font-size: 30px;
     font-weight: bold;
 }
+.fun{
+    font-size: 26px;
+}
+.taste{
+font-size: 20px;
+}
 .fresh{
-    font-size: 23px;
+    font-size: 18px;
     font-weight: bold;
 }
 .b1{
+    
+    margin-top: 15px;
     text-align: center;
 }
 .buttn{
@@ -146,7 +154,6 @@ nav ul li {
     color: #3d2514;
     font-size: 17px;
     font-weight: 900;
-    text-align: center;
 }
 .enjoy{
     text-align: center;
