@@ -184,17 +184,20 @@ font-size: 20px;
     width: 80%;
 }
 .cheesy img{
-    width: 80%;
+    max-width: 296px;
+    min-height: 305px;
+    max-height: 296px;
 }
 .thandhoribur img{
     width: 80%;
 }
 .threepro h2{
-    font-size: 34px;
+    font-size: 28px;
+    margin: auto;
 }
 .burbt{
-    font-size: 27px;
-    padding: 13px;
+    font-size: 17px;
+    padding: 6px;
     font-weight: bolder;
     background: #bf2222;
     color: white;
