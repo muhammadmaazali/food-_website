@@ -171,13 +171,23 @@ font-size: 20px;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 10px;
     text-align: center;
     color: #3d2514;
 }
 .vegbur,.cheesy,.thandhoribur{
+    width: 370px;
     padding: 10px;
+}
+.vegbur img{
+    width: 80%;
+}
+.cheesy img{
+    width: 80%;
+}
+.thandhoribur img{
+    width: 80%;
 }
 .threepro h2{
     font-size: 34px;
