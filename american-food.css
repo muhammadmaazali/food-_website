@@ -81,12 +81,17 @@ nav ul li {
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 74px;
+    /* box-sizing: border-box; */
+    justify-content: space-evenly;
+    /* padding: 16px; */
+    padding-top: 30px;
 }
 .box1{
-    width: 535px;
-    height: 420px;
+    /* width: 535px; */
+    min-width: 413px;
+    /* height: 420px; */
+    min-height: 292px;
+    /* padding: 0px; */
     color: white;
     background: url(americanfood/box1.png);
     background-size: 100%;
@@ -116,13 +121,13 @@ nav ul li {
     background-repeat: no-repeat;
 }
 .bo1,.bo2,.bo3{
-    padding: 30px;
+    padding: 13px;
 }
 .today{
-    font-size: 20px;
+    font-size: 15px;
 }
 .popular{
-    font-size: 30px;
+    font-size: 21px;
     font-weight: bold;
 }
 .fun,.taste{
