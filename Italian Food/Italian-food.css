@@ -1,0 +1,407 @@
+* {
+    /*box-sizing: border-box;*/
+}
+
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: -17px;
+    margin-left: -5px; */
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.header {
+    width: 100%;
+    background: url(psd/Header\ Background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header nav {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.logo {
+   
+    margin-top: 20px;
+}
+.header nav a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+}
+.header ul li {
+    font-weight: bold;
+}
+
+.name {
+    text-align: center;
+    color: aliceblue;
+    font-family: Apple Chancery, cursive;
+    font-size: 35px;
+}
+
+.maindiv {
+    display: flex;
+}
+.wasta{
+    text-align: center;
+    width: 59%;
+}
+.heading {
+    color: aliceblue;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainDivPara p{
+   
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        margin: 30px;
+}
+
+.button {
+    border-radius: 50px;
+    font-size: 30px;
+}
+.psdimage {
+    width: 40%;
+}
+.psdimage img{
+    width: 100%;}
+.group2 h1 {
+    padding: 0%;
+    margin: 0;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 5em;
+}
+
+.group2 p {
+    width: 80%;
+    text-align: center;
+    font-family: cursive;
+    margin: auto;
+}
+
+.products {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.pro1 h2{
+    padding-top: 9px;
+}
+.pro img {
+    width: 100%;
+
+}
+
+.pro {
+    padding: 20px;
+}
+
+.pro h2 {
+    text-align: center;
+
+}
+
+.pro p {
+    text-align: center;
+}
+.pro .pro3{
+    overflow: hidden;
+}
+.lelowidth {
+    text-align: center;
+    margin:10px;
+}
+
+.probutton {
+    width: 20%;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.group3 {
+    background: url(psd/bg\ form.png);
+    padding-top: 10px;
+}
+
+.group3 h1 {
+    text-align: center;
+    color: rgb(218, 220, 221);
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 4em;
+    margin-bottom: 0%;
+}
+
+.infobox {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    text-align: justify;
+    width: 40%;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.moreinfo {
+    text-align: center;
+}
+
+.infobutton {
+    background: aliceblue;
+    color: black;
+    font-size: 30px;
+    border-radius: 15px;
+    width: 25%;
+    margin: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.discount1 h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.discount1 {
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+img {
+    width: fit-content;
+    overflow: hidden;
+}
+
+.titl1 {
+    width: 40%;
+    overflow: hidden;
+}
+
+.discount2 {
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.discount2 h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+img {
+    width: fit-content;
+}
+
+.titl2 {
+    width: 40%;
+}
+
+.discountbut {
+    padding: 10px 36px;
+    background: black;
+    color: aliceblue;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.group4 {
+    background: url(psd/Header\ Background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.piz h1 {
+    color: aliceblue;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.piz p {
+    width: 60%;
+    margin: auto;
+    color: aliceblue;
+    text-align: center;
+}
+
+.leaves {
+    width: 100%;
+    margin: auto;
+    margin-top: -20%;
+}
+.pizzaslice{
+    text-align: center;
+    margin-top: -30%;
+}
+.pizza {
+    margin: auto;
+    width: 36%;
+    text-align: center;
+}
+
+.slice {
+    width: 22%;
+}
+
+.group5 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.han {
+    padding:0 0 0 25px;
+    width: 30%;
+}
+
+.han h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:23px ;
+}
+
+.han p {
+    text-align: justify;
+
+}
+
+.pra {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.group6 {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    background: url(psd/bg\ form.png);
+    /* padding: 130px; */
+    padding: 50px 0 50px 0;
+}
+
+.group6 h1 {
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.group6 p {
+    width: 45%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.group6 input , button{
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.group6 button {
+    width: 127px;
+    font-weight: bold;
+    background: #54524f;
+    color: aliceblue;
+    margin-left: -50px;
+    letter-spacing: 1.5px;
+}
+
+.upleave {
+    position: absolute;
+    bottom: -8em;
+    margin-left: 0;
+
+}
+
+.group6 img {
+    width: 90vw;
+    height: 100vh;
+    margin-left: auto;
+}
+
+.group7 {
+    display: flex;
+    
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+
+.group7 p {
+    text-align: justify;
+}
+
+.btm {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.btm ul {
+    padding: 0;
+    list-style: none;
+}
+
+.btm ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.btm ul li {
+    padding: 9px;
+}
+.exdiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.font {
+    width: 35%;
+}
+
+.group7 .iconfont {
+    display: flex;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.group7 .iconfont li {
+    padding: 10px;
+}
+.group5{
+
+}
+hr{
+    height:10px;color:white;align-items: center;width: 20%;background:white;border-radius: 10px;
+}

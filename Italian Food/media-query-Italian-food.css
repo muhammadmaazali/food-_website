@@ -1,0 +1,200 @@
+@media only screen and (max-width: 768px){
+    .header nav{
+       width: 100%;
+       font-size: 70%;
+    }
+    .header ul{
+        width: 60%;
+        padding: 8px;
+    }
+    .logo{
+        margin-top: 0;
+    }
+    .logo img{
+        width: 60%;
+    }
+    .wasta{
+        width: 100%;
+    }
+    .psdimage{
+        display: none;
+    }
+    .name h1{
+        font-size: 50px;
+        line-height: 0.5;
+    }
+    .heading h2{
+        font-size: 20px;
+    }
+    .button{
+        font-size: 12px;
+        margin:10px;
+    }
+    .mainDivPara p{
+      
+        font-size: 12px;
+    }
+    .mainDivPara{
+        width: 80%;
+        margin: auto;
+    }
+    .group2 h1{
+        font-size: 50px;
+    }
+    .products{
+        flex-direction: column;
+    }
+    .probutton{
+        width: 170px;
+    }
+    .group3 h1{
+        font-size: 50px;
+    }
+    .infobox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        text-align: initial;
+        width: 80%;
+    }
+    .infobutton{
+        width: 160px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .item.discount1{
+        flex-wrap: wrap;
+    }
+    .item.discount2{
+        flex-wrap: wrap;
+    }
+    .image2{
+        order: -1;
+    }
+    .titl2 p, .titl1 p ,.infobox p{
+        text-align: justify;
+    }
+    .titl1 h2,.titl2 h2 {
+        font-size: 25px;
+    }
+    .titl1,.titl2,.group6 p{
+        width: 80%;
+        text-align: center;
+    }
+    .group6{
+        padding: 0%;
+    }
+    .discountbut{
+        margin: 10px;
+    }
+    .pizzaslice{
+        display: none;
+        }
+        .piz p,.piz h1{
+            position: relative;
+        }
+        .leaves{
+            margin-top: -45%;
+            display: none;
+        }
+        .piz h1{
+            font-size: 40px;
+        }
+        .piz p{
+            font-size: 12px;
+            width: 80%;
+            text-align: center;
+        }
+        hr{
+            height: 2px;
+            width: 100%;
+            margin-top:20px;
+            margin-bottom: 20px;
+        }
+        .pra h2{
+            text-align: center;
+        }
+        .pra{
+            text-align: justify;
+    width: 80%;
+        }
+        .upleave{
+            display: none;
+        }
+        .group4{
+            padding: 20px;
+        }
+        .group4 h1{
+            margin: 0;
+        }
+        .group6 h1{
+            font-size: 35px;
+            padding: 10px;
+        }
+        .group6 input{
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        .group6 button{
+            width: 110px;
+            margin-bottom: 20px;
+        }
+        .group7 {
+            display: flex;
+            height: auto;
+            flex-direction: column;
+            justify-content: center;
+            width: 80%;
+            margin: auto;
+           
+        }
+        .font {
+            width: auto;
+        }
+       
+        .btm{
+            padding:0;
+        }
+        .han {
+            flex-direction: column;
+            width: auto;
+        }
+        .btm.font h2{
+            padding-top: 30px;
+            margin: 0;
+            text-align: center;
+            font-size: 45px;
+        }
+        .btm h2{
+            font-size: 20px;
+
+        }
+        .btm ul li {
+            padding: 4px;
+            font-size: 12px;
+        }
+        .group7 .iconfont li {
+            padding: 10px;
+            font-size: 30px;
+        }
+        .group7 .iconfont{
+            justify-content: space-evenly;
+        }
+        .btm ul{
+            margin: auto;
+        }
+        .exdiv.btm h2{
+            text-align: inherit;
+            padding: 10px;
+            margin: 0px;
+        }
+        .exdiv{
+            margin-bottom: 30px;
+        }
+}
+@media only screen and (min-width:1550px){
+.upleave{
+    display: none;
+}
+}
