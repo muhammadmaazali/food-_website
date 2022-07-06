@@ -1,0 +1,9 @@
+.container{
+    border: 2px solid black;
+}
+.row{
+    border: 4px solid hotpink;
+}
+.col-10,.col-2{
+    border: 8px solid red;
+}
