@@ -8,6 +8,12 @@
     border: 1px solid rgb(3, 3, 3);
     background-color: rgb(141, 223, 223);
 }
-.col-4,.col-6{
+.col-md-4,.col-md-3{
 border: 2px solid black;
+}
+.pink{
+    background: pink;
+}
+.red{
+    background: red;
 }

@@ -1,0 +1,24 @@
+.container{
+    border: 2px solid black;
+}
+.row{
+    border:1px solid darkorchid;
+}
+.col-md-6{
+    border: 1px solid brown;
+}
+.pink{
+    background: pink;
+}
+.blue {
+    background: blue;
+}
+.orange{
+    background:orange;
+}
+.green{
+    background:green;
+}
+.red{
+    background: red;
+}
