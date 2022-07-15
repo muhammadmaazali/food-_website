@@ -1,0 +1,18 @@
+.container{
+    border: 1px solid black;
+}
+.col-md-3{
+    border: 1px solid red;
+}
+.pink{
+    background: pink;
+}
+.green{
+    background: greenyellow;
+}
+.orange{
+    background: orange;
+}
+.blue{
+    background: blue;
+}
