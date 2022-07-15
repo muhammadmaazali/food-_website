@@ -1,0 +1,24 @@
+.container{
+    border: 1px solid black;
+}
+.row{
+    border: 2px solid red;
+}
+.green{
+    background: greenyellow;
+}
+.blue{
+    background:blue;
+}
+.orange{
+    background:orange;
+}
+.hotpink{
+    background: hotpink;
+}
+.gold{
+    background: gold;
+}
+.tan{
+    background:tan;
+}
