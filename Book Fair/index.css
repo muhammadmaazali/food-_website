@@ -264,6 +264,12 @@ header .container .col-md-7 button{
 .section-4 .card .card-text{
     padding: 0.5em;
 }
-.section-4 .card .card-body>a{
-    font-size: 4.5em;
+.section-4 .card .card-body >a{
+    font-size: 1.5em !important;
+}
+.section-4 .carousel-item{
+    padding-left: 3rem;
+}
+.border-radius{
+    border-radius:50%;
 }
