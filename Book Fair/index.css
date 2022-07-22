@@ -30,8 +30,8 @@ header{
     background:#dd2476 ;
     background: var(--bggradient);
 }
-.dropdown-content{
-    display: none;
+.dropdown .dropdown-content{
+     display: none;
     position: absolute;
     background: white;
     min-width: 160px;
@@ -51,7 +51,7 @@ header{
     display: block;
 }
 header .nav-item:last-child{
-    padding-right: 10.5em;
+    padding-right: 7.5em;
 
 }
 header .nav-item{
@@ -235,6 +235,9 @@ header .container .col-md-7 button{
     color: var(--light-gray);
     font-size: 3vmin;
 }
+.section-3 .col-md-6{
+    width: 17%;
+}
 .section-3 .desktop{
     background: white;
     display: inline-block;
@@ -255,7 +258,7 @@ header .container .col-md-7 button{
     padding-top: 14vmin;
 }
 .section-4 .team{
-    padding: 10vmin 4vmin;
+    padding: 10vmin 8vmin;
 }
 .section-4 .card{
     width: 22rem;
@@ -268,8 +271,39 @@ header .container .col-md-7 button{
     font-size: 1.5em !important;
 }
 .section-4 .carousel-item{
-    padding-left: 3rem;
+    padding:0;
 }
 .border-radius{
     border-radius:50%;
+}
+
+/*footer*/
+footer{
+    background: rgba(0,0,0,0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #585858 !important;
+}
+footer p>span{
+    color: #ff512f;
+}
+footer input {
+    border: none !important;
+}
+footer input::placeholder{
+    color: white !important;
+}
+footer .input-group{
+    width: 80%;
+}
+footer .input-group .input-group-text{
+    background: var(--bggradient);
+    border: none;
+    height: 35px;
+}
+footer .column i + i{
+    padding: 0 0.5em;
 }
