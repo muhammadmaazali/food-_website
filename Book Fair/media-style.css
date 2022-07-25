@@ -1,0 +1,44 @@
+@media only screen and (max-width:1024px){
+    header .container .col-md-7 h1{
+        font-size: 6.5vmin;
+    }
+    .section-1 .row .col-md-6 .panel{
+        width: 40rem;
+    padding: 12vmin 5vmin 13vmin 5vmin;
+    left: -14vmin;
+    top: 5vmin;
+    }
+    .section-1 .row .col-md-6 .panel h1{
+        font-size: 24px;
+    }
+    .section-1 .row .col-md-6 .panel p{
+        font-size: 12px;
+    }
+    .section-1 {
+        padding: 10vmin 0 0vmin 0;
+    }
+    .numbers .rect {
+        width: 13rem;
+        height: 10rem;
+    }
+    .numbers .rect h1 {
+        font-size: 4rem;
+    }
+    .purchase .cards .card {
+        width: 18rem;
+    }
+    .section-3 .col-md-6 {
+    width: auto;
+    }
+    .section-4 .container h1 {
+        font-size: 6vmin;
+        padding-top: 9vmin;
+    }
+    .cards .card-text {
+        padding: 2.5rem 1rem;
+    }
+    footer {
+        padding: 14vmin 10vmin;
+    }
+    
+}
