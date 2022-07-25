@@ -24,6 +24,12 @@
     .numbers .rect h1 {
         font-size: 4rem;
     }
+    .purchase>h1 {
+        padding-top: 10vmin;
+    }
+    .purchase>p {
+        padding-bottom: 5vmin;
+    }
     .purchase .cards .card {
         width: 18rem;
     }
@@ -40,5 +46,75 @@
     footer {
         padding: 14vmin 10vmin;
     }
-    
+
+}
+@media only screen and (max-width:768px){
+    element.style {
+    padding-left: 0.5em;
+}
+.navbar-brand{
+        padding-left: 0.5em !important;
+    }
+    header .container .col-md-7 h6 {
+        padding: 0vmin;
+        letter-spacing: 3px;
+    }
+    header .container .col-md-7 h1 {
+        font-size: 4.5vmin;
+    }
+    header .container .col-md-7 p {
+        padding: 1vmin 0vmin;
+    }
+    .section-1 .row .col-md-6 .panel {
+        width: 30rem;
+        padding: 2vmin 5vmin 0vmin 5vmin;
+        left: -12vmin;
+        top: 3vmin;
+    }
+
+    .numbers .rect {
+        width: 9rem;
+        height: 8rem;
+    }
+    .numbers .rect h1 {
+        font-size: 3rem;
+    }
+    .purchase>h1 {
+        padding-top: 4vmin;
+    }
+    .purchase>p {
+        padding-bottom: 1vmin;
+    }
+    .purchase .cards .card {
+        width: 21rem;
+    }
+    .section-3 .col-md-12>h1 {
+        padding: 1em 0 0.5em 0;
+        
+        font-size: 5vmin;
+    }
+    .section-3 .col-md-12>p {
+        padding: 12px 4em;
+        padding-bottom: 2em;
+        font-size: 18px;
+    }
+    .col-md-4 {
+        width: 100%;
+        margin-bottom: 4vmin;
+    }
+    .section-4 .team {
+        padding: 5vmin 8vmin;
+    }
+    footer {
+        padding: 14vmin 2vmin;
+    }
+    .text-light {
+        font-size: 19px;
+    }
+    .text-muted {
+        font-size: 14px;
+    }
+    footer .column i + i {
+        padding: 0 2px;
+    }
 }
