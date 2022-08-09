@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <script>
+        var a = {
+            firstName: "Mansha",
+            lastName: "Hammad",
+            age: "25",
+            email: "hammadmansha@gmail.com",
+            favMovies: ["Sholaay", "Dishoom", "Batman"],
+            living: {
+                city: "islamabad"
+            },
+            salary: function () {
+                return 25000;
+            },
+            fullName: function () {
+                return this.firstName + " " + this.lastName;
+            }
+        }
+        // document.write(a);
+        console.log(a);
+        document.write(a.lastName + "<br>");
+        document.write(a.firstName + "<br>");
+        document.write(a.age + "<br>");
+        document.write(a.email + "<br>");
+        document.write(a.favMovies + "<br>");
+        document.write(a.salary() + "<br>");
+        document.write(a.fullName()+"<br>");
+        document.write(a.living.city);
+    </script>
+</head>
+
+</html>
