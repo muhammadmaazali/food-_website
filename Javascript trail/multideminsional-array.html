@@ -2,19 +2,37 @@
 
 <head>
     <script>
+        // var statu = [
+        //     ["nouman", 20, "male", "CA"],
+        //     ["Ahmed", 22, "male", "B.com"],
+        //     ["Rizwan", 23, "Male", "BSCS"],
+        //     ["Shamshas", 25, "male", "BBA"]
+        // ];
+
+        // for (var a = 0; a < 4; a++) {
+        //     for (var b = 0; b < 4; b++) {
+        //         document.write(statu[a][b] + " ");
+        //     }
+        //     document.write("<br>");
+        // }
+
+
         var statu = [
             ["nouman", 20, "male", "CA"],
             ["Ahmed", 22, "male", "B.com"],
             ["Rizwan", 23, "Male", "BSCS"],
             ["Shamshas", 25, "male", "BBA"]
         ];
-        
+        document.write("<table border='1px' cellspacing='0'>");
         for (var a = 0; a < 4; a++) {
+            document.write("<tr>");
             for (var b = 0; b < 4; b++) {
-                document.write(statu[a][b] + " ");
+                document.write("<td>" + statu[a][b] + "</td>");
             }
-            document.write("<br>");
+            document.write("</tr>")
+            // document.write("<br>");
         }
+        document.write("</table>");
     </script>
 </head>
 
