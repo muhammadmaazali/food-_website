@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Flex-basis</title>
+		<style>
+			#main{
+				background:#eee;
+				margin:0 0 0 200px;
+				width:300px;
+				border:2px solid black;
+				
+				display:flex;
+				
+			}
+			.items{
+				
+				font-size:20px;
+				font-family:arial;
+				font-weight:bold;
+				padding:5px;
+				text-align:center;
+				height:60px;
+				
+				margin:0;
+				
+				
+			}
+			.box1{
+				background:red;
+				flex-basis:200px;
+				flex-shrink:0;
+			}
+			.box2{
+				background:lightgreen;
+			}
+			.box3{
+				background:yellow;
+			}
+			.box4{
+				background:gold;
+				flex-grow:1;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Flex Basis</h1>
+		<div id="main">
+			<div class="items box1">one</div>
+			<div class="items box2">Two</div>
+			<div class="items box3">Three</div>
+			<div class="items box4">Four</div>
+		</div>
+	</body>
+</html>

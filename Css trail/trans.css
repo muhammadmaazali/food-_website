@@ -1,0 +1,11 @@
+.trans{
+	width:150px;
+	height:150px;
+	background:rgb(255, 179, 179);
+	transition-property:width;
+	transition-duration:2s;
+	
+}
+.class:hover{
+		width:200px;
+}

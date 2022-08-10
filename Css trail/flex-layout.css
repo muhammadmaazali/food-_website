@@ -1,0 +1,159 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	font-family:arial;
+	display:flex;
+	flex-direction:column;
+	margin:0;
+}
+a{
+	text-decoration:none;
+}
+header{
+	background:linear-gradient(45deg, black, transparent);
+	display:flex;
+	align-items:center;
+	padding:15px 0;
+}
+header ul{
+	list-style:none;
+	display:flex;
+	margin:0;
+	padding:0;
+}
+header a{
+	color:#fff;
+}
+#logo{
+	margin:0 auto;
+	font-family:ComicSansMS;
+	font-size:40px;
+	text-shadow:-4px -4px 5px black;
+	color:
+}
+#menu li{
+	padding:10px;
+}
+#social-links li{
+	padding:10px;
+}
+#main{
+	display:flex;
+	
+	
+}
+article{
+	padding:10px;
+}
+aside{
+	flex:0 0 20vw;
+	background:linear-gradient(to bottom, #33ccff 0%, #ffcc66 -25%);
+	padding:10px;
+}
+aside ul{
+	list-style:none;
+	padding:0;
+}
+aside ul li a{
+	color:black;
+	padding:10px;
+	display:block;
+	border-bottom:1px solid grey;
+	text-align: center;
+}
+aside img{
+	width:100%;
+}
+.services-container{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	
+}
+.service-box{
+	border:2px solid #eee;
+	flex-basis:32%;
+	max-width:400px;
+	padding:10px;
+	display:flex;
+	flex-direction:column;
+	min-width: 221px;
+}
+.service-box img{
+	width:100%;
+	transition: transform 2s;
+}
+.service-box img:hover{
+	  transform: scale(1.2); 
+}
+.service-box h3{
+	margin:10px 0 10px;
+}
+p{
+	text-align: justify;
+	padding:10px;
+}
+.service-box p{
+	margin:0 0 10px;
+	
+}
+.call-to-action{
+	align-self:flex-start;
+	margin-top:auto;
+}
+.call-to-action a{
+	background:grey;
+	border:2px solid transparent;
+	color:#fff;
+	padding:8px 13;
+	display:block;
+	}
+	.call-to-action a:hover{
+	background:transparent;
+	color:black;
+	border:2px solid grey;
+	}
+footer{
+	background:linear-gradient(45deg, black, transparent);
+	color:white;
+	text-align:center;
+	padding:15px 0;
+}
+
+/*@media only screen and (max-width: 625px) {
+	nav ul li a {
+		font-size: 12px;
+	}
+	
+}
+@media only screen and (max-width: 600px) {
+ 
+  aside{
+	  display:none;
+  }
+  article h2,.service-title{
+	width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  article{
+	width:100%;
+  }
+  header{
+	  flex-direction: column;
+  }
+  #logo{
+	  order:-1;
+  }
+  .services-container{
+	  flex-direction:column;
+	  align-items:center;
+  }
+  .call-to-action{
+	  text-align:center;
+	  align-self: initial;
+  }
+  
+}*/

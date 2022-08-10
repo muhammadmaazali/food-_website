@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>sub counter</title>
+	<style>
+	body{
+		counter-reset:this-counter 0;
+	}
+	h1{
+		font-family:arial;
+		font-size:32px;
+		color:blue;
+		margin-bottom:35px;
+		counter-reset:this ;
+	}
+	
+	h1::before{
+		content:"Section " counter(this-counter) ":";
+		counter-increment:this-counter 1
+	}
+	h2::before{
+		content:counter(this-counter) "." counter(this) ":";
+		counter-increment:this ;
+	}
+	</style>
+	</head>
+	<body>
+		<h1>Lorem ipsum</h1>
+		<h2>interdum</h2>
+		<h2>bibendum</h2>
+		<h2>bibendum</h2>
+		<hr>
+		<h1>Pellentesque</h1>
+		<h2>interdum</h2>
+		<h2>Phasellus</h2>
+		<h2>interdum</h2>
+		<hr>
+		<h1>lacinia</h1>
+		<h2>Curabitur</h2>
+		<h2>congue</h2>
+		<h2>Curabitur</h2>
+	</body>
+</html>

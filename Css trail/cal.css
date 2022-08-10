@@ -1,0 +1,11 @@
+.cal{
+	border:2px solid black;
+	background:tan;
+	width:500px;
+	height:300px;
+	padding:20px;
+	position:absolute;
+	left:cal(50%-250px-20px-1px);
+	top:cal(50%-150px-20px-1px);
+	
+}

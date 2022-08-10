@@ -1,0 +1,41 @@
+#main{
+	background:#eee;
+	height:600px;
+	padding:10px;
+	margin:250px 0 0 300px;
+	border:2px solid black;
+	
+	display:flex;
+	/*flex-direction:column-reverse;
+	flex-wrap:wrap;*/
+	
+	flex-flow:row wrap;
+	align-items:flex-end;
+	  
+}
+.item{
+	font-size:2em;
+	color:#33ffcc;
+	font-family:arial;
+	text-align:center;
+	padding:5px;
+	margin:5px;
+}
+.box1{
+	background:red;
+}
+.box2{
+	background:tan;
+}
+.box3{
+	background:lightblue;
+}
+.box4{
+	background:orange;
+}
+.box5{
+	background:blue;
+}
+.box6{
+	background:lightgreen;
+}

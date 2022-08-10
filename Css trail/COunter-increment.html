@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Counter increment</title>
+		<style>
+			body{
+				font-family:arial;
+				font-size:20px;
+				padding:10px 0 0 20px;
+				text-align:justify;
+				counter-reset:my-counterr 0;
+				
+			}
+			h1{
+				font-size:32px;
+				margin-bottom:35px;
+				color:red;
+			}
+			h2::before{
+				content: counter(my-counterr,lower-roman) ;
+				counter-increment:my-counterr 1;
+				color:crimson;
+				background:black;
+				display:inline-block;
+				padding:5px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>CSS Counter Increment<h1>
+		
+		<h2>heading 1</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a lacinia tellus. Nam eu enim lorem. Cras interdum posuere quam, eget consequat dui. In eget suscipit lacus, ac bibendum tellus. Praesent nisl sapien, feugiat sit amet mauris vitae, gravida malesuada neque. Nam vitae purus massa. Suspendisse sagittis elementum lacinia. Vivamus a risus sodales, dignissim nunc sed, tincidunt turpis. Curabitur a ante congue, dignissim ex ut, rutrum tortor. Pellentesque faucibus leo sit amet lectus viverra iaculis. Sed vitae lacus in purus mollis maximus non id tortor. Aenean eu tortor nulla.</p>
+		<h2>heading 2</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a lacinia tellus. Nam eu enim lorem. Cras interdum posuere quam, eget consequat dui. In eget suscipit lacus, ac bibendum tellus. Praesent nisl sapien, feugiat sit amet mauris vitae, gravida malesuada neque. Nam vitae purus massa. Suspendisse sagittis elementum lacinia. Vivamus a risus sodales, dignissim nunc sed, tincidunt turpis. Curabitur a ante congue, dignissim ex ut, rutrum tortor. Pellentesque faucibus leo sit amet lectus viverra iaculis. Sed vitae lacus in purus mollis maximus non id tortor. Aenean eu tortor nulla.</p>
+		<h2>heading 3</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a lacinia tellus. Nam eu enim lorem. Cras interdum posuere quam, eget consequat dui. In eget suscipit lacus, ac bibendum tellus. Praesent nisl sapien, feugiat sit amet mauris vitae, gravida malesuada neque. Nam vitae purus massa. Suspendisse sagittis elementum lacinia. Vivamus a risus sodales, dignissim nunc sed, tincidunt turpis. Curabitur a ante congue, dignissim ex ut, rutrum tortor. Pellentesque faucibus leo sit amet lectus viverra iaculis. Sed vitae lacus in purus mollis maximus non id tortor. Aenean eu tortor nulla.</p>
+		<h2>heading 4</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a lacinia tellus. Nam eu enim lorem. Cras interdum posuere quam, eget consequat dui. In eget suscipit lacus, ac bibendum tellus. Praesent nisl sapien, feugiat sit amet mauris vitae, gravida malesuada neque. Nam vitae purus massa. Suspendisse sagittis elementum lacinia. Vivamus a risus sodales, dignissim nunc sed, tincidunt turpis. Curabitur a ante congue, dignissim ex ut, rutrum tortor. Pellentesque faucibus leo sit amet lectus viverra iaculis. Sed vitae lacus in purus mollis maximus non id tortor. Aenean eu tortor nulla.</p>
+	</body>
+</html>

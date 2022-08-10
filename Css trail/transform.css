@@ -1,0 +1,16 @@
+#base{
+	width:250;
+	height:150px;
+	border:1px solid black;
+	background:grey;
+	margin:150px 300px;
+}
+.box{
+	width:250;
+	height:150px;
+	border:1px solid black;
+	background:orange;
+	
+	transform:perspective(800px) scalez(5) rotatex(60deg) ;
+	text-align:center;
+}

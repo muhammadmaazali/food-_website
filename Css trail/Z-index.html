@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>z-index</title>
+		<style>
+			body{
+				font-family:arial;
+				background:
+	repeating-radial-gradient(
+		circle,
+		transparent,
+		transparent 3.5em,
+		tomato 3.5em,
+		tomato 4.5em
+	),
+	repeating-radial-gradient(
+		circle,
+		transparent,
+		transparent 3.5em,
+		dodgerblue 3.5em,
+		dodgerblue 4.5em
+	),
+	repeating-radial-gradient(
+		circle,
+		transparent,
+		transparent 2.5em,
+		gold 2.5em,
+		gold 2.75em
+	), floralwhite;
+
+	background-blend-mode: multiply;
+	background-size: 10em 10em;
+	background-position:
+	0 0,
+	5em 5em,
+	10em 5em;
+			}
+			div{
+				width:20%;
+				height:30%;
+				border:2px solid black;
+				font-size:25px;
+				position:absolute;
+			}
+			.box1{
+				background:blue;
+				left:50px;
+				top:100px;
+				
+				
+			}
+			.box2{
+				background:yellow;
+				left:100px;
+				top:150px;
+				z-index:1;
+				background:
+	repeating-radial-gradient(
+		circle,
+		transparent,
+		transparent 3.5em,
+		tomato 3.5em,
+		tomato 4.5em
+	),
+	repeating-radial-gradient(
+		circle,
+		transparent,
+		transparent 3.5em,
+		dodgerblue 3.5em,
+		dodgerblue 4.5em
+	),
+	repeating-radial-gradient(
+		circle,
+		transparent,
+		transparent 2.5em,
+		gold 2.5em,
+		gold 2.75em
+	), floralwhite;
+
+	background-blend-mode: multiply;
+	background-size: 10em 10em;
+	background-position:
+	0 0,
+	5em 5em,
+	10em 5em;
+			}
+			.box3{
+				background:tan;
+				left:150px;
+				top:200px;
+			}
+	
+		</style>
+		</head>
+		
+		<body>
+			<div class="box1">
+			 A
+			</div>
+			<div class="box2">
+			 B
+			</div>
+			<div class="box3">
+			 C
+			</div>
+		</body>
+</html>

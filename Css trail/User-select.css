@@ -1,0 +1,11 @@
+.sub{
+	width:400px;
+	border:2px solid black;
+	background:gold;
+	padding:10px;
+	text-align:justify;
+	user-select:none;
+}
+h1{
+	user-select:none; 
+}

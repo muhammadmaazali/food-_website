@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>flex-box margin</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+		
+	</head>
+	<style>
+		#main{
+			background:#eee;
+			border:2px solid black;
+			width:50%;
+			display:flex;
+			flex-direction:column;
+		}
+		.item{
+			
+			font-family:arial;
+			font-size:2em;
+			text-align:center;
+			height:120px;
+			
+			
+		}
+		.one{
+			background:hotpink;
+		}
+		.two{
+			background:mediumpurple;
+			display:flex;
+			
+		}
+		.three{
+			background:lightgreen;
+		}
+		.four{
+			background:orange;
+		}
+		.two > .subitem{
+			background:gold;
+			margin:10px;
+			text-align:center;
+			flex-grow:1;
+		}
+		
+	</style>
+	
+	<body>
+		<h1>Flexbox margin</h1>
+		 <div id="main">
+			<div class="item one"><a href="facebook.com"<i class="fa-brands fa-facebook"></i></a></div>
+			<div class="item two">
+				<div class="subitem A">A</div>
+				<div class="subitem B">B</div>
+				<div class="subitem C">C</div>
+			</div>
+			<div class="item three">ONE</div>
+			<div class="item four">ONE</div>
+		</div>
+	</body>
+</html>

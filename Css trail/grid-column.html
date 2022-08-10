@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Grid Column</title>
+		<style>
+			body{
+				font-family:arial;
+			}
+			#main{
+				background:tan;
+				width:700px;
+				margin:50px 0 0 70px;
+				display:grid;
+				grid-template-columns:1fr 1fr 1fr;
+				grid-template-rows:250px 250px;
+				
+				grid-gap:15px 50px;
+			}
+			.items1{
+				background:red;
+				grid-row:1/2;
+				grid-column:1/4;
+			}
+			.items2{
+				background:yellow;
+			}
+			.items3{
+				background:green;
+				grid-column:2/4;-
+			}
+			.items4{
+				background:slateblue;
+			}
+			.items5{
+				background:hotpink;
+			}
+			.items6{
+				background:goldenrod;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Css Grid column</h1>
+		<div id="main">
+			<div class="items1">First</div>
+			<div class="items2">Second</div>
+			<div class="items3">Third</div>
+			<div class="items4">Forth</div>
+			<div class="items5">Fifth</div>
+			<div class="items6">Sixth</div>
+			</div>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+#main{
+	background:#eee;
+	width:720px;
+	margin:45 0 0 180px;
+
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-template-rows:120px 60px 100px 400px 50px;
+	grid-gap:15px;
+	
+	grid-template-areas:"header header header"
+						"menu menu menu"
+						"box1 box2 sidebar"
+						"content content sidebar"
+						"footer footer footer"
+}
+.header{
+	background:orange;
+	grid-area:header;	
+}.menu{
+	background:tan;
+	grid-area:menu;
+}.box1{
+	background:lightgreen;
+	grid-area:box1;
+}.box2{
+	background:lightblue;
+	grid-area:box2;
+}.sidebar{
+	background:yellow;
+	grid-area:sidebar;
+	
+}.content{
+	background:pink;
+	grid-area:content;
+}.footer{
+	background:lightgreen;
+	grid-area:footer;
+}

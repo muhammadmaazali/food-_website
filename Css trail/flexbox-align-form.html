@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Flexbox align</title>
+	</head>
+	<style>
+		#main{
+			background:#eee;
+			list-style:none;
+			margin:50px;
+			padding:20px;
+		}
+		#main li{
+			display:flex;
+			justify-content:flex-end;
+			padding:5px 0;
+		}
+		#main li label{
+			flex-grow:1;
+		}
+		#main li input{
+			flex-grow:5;
+		}
+	</style>
+	
+	<body>
+		<h1>Aligm Form with flexbox</h1>
+		
+		<form>
+			<ul id="main">
+				<li>
+				<label>Name</label>
+				<input type="text"/>
+				</li>
+				<li>
+				<label>Class Name</label>
+				<input type="text"/>
+				</li>
+				<li>
+				<label>Email Address</label>
+				<input type="email"/>				
+				</li>
+				<li>
+				<button type="submit">Save</button>
+				</li>
+			</ul>
+		</form>
+	</body>
+</html>

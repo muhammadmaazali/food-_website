@@ -1,0 +1,9 @@
+.a1{
+	font-size:25px;
+	padding:10px;
+	text-align:justify;
+}
+::selection{
+	background:red;
+	color:blue;
+}

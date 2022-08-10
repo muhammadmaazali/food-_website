@@ -1,0 +1,21 @@
+.fill{
+	width:150px;
+	height:150px;
+	background:black;
+	margin-left:20px;
+	animation-name:sample;
+	animation-duration:2s;
+	animation-iteration-count:6;
+	animation-direction:alternate;
+	/*animation:sample 2s infinite alternate;*/
+	
+	
+}
+.fill:hover{
+	Animation-play-state:running;
+}
+@keyframes sample{
+	0%{width:150px;background:yellow;}
+	50%{width:300px;background:white;}
+	100%{width:500px;background:yellow;}
+}

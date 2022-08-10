@@ -1,0 +1,13 @@
+body{
+	font-size:19px;
+	font-family:arial;
+	padding:10px;
+}
+h1{
+	font-size:30px;
+	margin-bottom:35px;
+}
+p:nth-of-type(2){
+	color: rgb(188, 26, 26);
+	border: 2px solid black;
+}
