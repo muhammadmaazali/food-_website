@@ -1,5 +1,5 @@
 var element;
 
-element=document.getElementById("main");
+element=document.getElementsByClassName("header").innerText;
 
 console.log(element);
