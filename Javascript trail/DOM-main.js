@@ -110,10 +110,34 @@
 
 // console.log(element);
 
+// var element;
+
+// element=document.querySelector(".header").classList="khan ganh sham";
+
+// element=document.querySelector("#bbsn").classList;
+
+// console.log(element);
+
+// var element;
+
+// element=document.querySelector(".header").classList.add("janam","efg");
+
+// element=document.querySelector(".header").classList;
+
+// console.log(element);
+
+// var element;
+
+// element=document.querySelector(".header").classList.remove("abc","def","sfesad","sdfas");
+
+// element=document.querySelector(".header").classList;
+
+// console.log(element);
+
 var element;
 
-element=document.querySelector(".header").classList="khan ganh sham";
+element=document.getElementsByClassName("header")[0].ondblclick=abs;
 
-element=document.querySelector("#bbsn").classList;
-
-console.log(element);
+function abs(){
+    document.getElementsByClassName("header")[0].style.background="black";
+}
