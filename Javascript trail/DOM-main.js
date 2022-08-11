@@ -109,3 +109,11 @@
 // element=document.querySelector(".header").id;
 
 // console.log(element);
+
+var element;
+
+element=document.querySelector(".header").classList="khan ganh sham";
+
+element=document.querySelector("#bbsn").classList;
+
+console.log(element);
