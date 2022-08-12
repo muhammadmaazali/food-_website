@@ -134,10 +134,24 @@
 
 // console.log(element);
 
+// var element;
+
+// element=document.getElementsByClassName("header")[0].onmouseleave=abs;
+
+// function abs(){
+//     document.getElementsByClassName("header")[0].style.background="black";
+// }
+
 var element;
 
-element=document.getElementsByClassName("header")[0].ondblclick=abs;
+element=document.getElementsByClassName("header")[0].addEventListener("click",abc);
+element=document.getElementsByClassName("header")[0].addEventListener("mouseenter",function(){
+    document.getElementsByClassName("header")[0].style.fontSize="50px";
+});
+element=document.getElementsByClassName("header")[0].ddEventListener("dblclick",function(){
+    document.getElementsByClassName("header")[0].style.fontSize="50px";
+});
 
-function abs(){
-    document.getElementsByClassName("header")[0].style.background="black";
+function abc(){
+    document.getElementsByClassName("header")[0].style.background="yellow";
 }
