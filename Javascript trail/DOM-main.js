@@ -156,14 +156,28 @@
 //     document.getElementsByClassName("header")[0].style.background="yellow";
 // }
 
-var element;
+// var element;
 
-element=document.getElementsByClassName("header")[0].addEventListener("mouseleave",abc);
-element=document.getElementsByClassName("header")[0].addEventListener("dblclick",xyz);
+// element=document.getElementsByClassName("header")[0].addEventListener("mouseleave",abc);
+// element=document.getElementsByClassName("header")[0].addEventListener("dblclick",xyz);
+
+// function abc(){
+//     document.getElementsByClassName("header")[0].style.background="green";
+// }
+// function xyz(){
+//     document.getElementsByClassName("header")[0].removeEventListner("mouseleave",abc);
+// }
+
+var element;
+document.getElementById("bbsn").addEventListener("mouseleave",abc);
+document.getElementById("bbsn").addEventListener("click",xyz);
 
 function abc(){
-    document.getElementsByClassName("header")[0].style.background="green";
+    document.getElementById("bbsn").style.background="green";
 }
 function xyz(){
-    document.getElementsByClassName("header")[0].removeEventListner("mouseleave",abc);
+    document.getElementById("bbsn").removeEventListener("mouseleave",abc);
 }
+// function abc(){
+//     document.getElementById("bbsn").style.background="green";
+// }
