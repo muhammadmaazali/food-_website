@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8317b52c76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand"><i class="fa-solid fa-shirt pr-2"></i>Cloths & Fashion</a>
+            <form class="d-flex searchBarStyle" role="search">
+                <input class="form-control mr-3" type="search" placeholder="Search" aria-label="Search">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addProductdilogue"
+                    disabled>
+                    Add New Products
+                </button>
+
+                <!-- <div class="modal fade" id="addProductdilogue" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="proModalBox" role="document">
+                        <div class="modal-content mainModalBox">
+                            <div class="modal-header d-flex justify-content-between">
+                                <h5 class="modal-title" id="exampleModalLabel">Add New Product</h5>
+
+
+                                <div class="modal fade modalFadeShow" id="exampleModal" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog addCatModal" role="document">
+                                        <div class="modal-content catModalBox">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Add New Category</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="catName">
+                                                    <span class="catName"> Category Name :</span>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="catList">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary disBtn"
+                                                    data-dismiss="modal">Discard</button>
+                                                <button type="button" class="btn btn-primary spBtn">Save
+                                                    Category</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="addCat d-flex">
+                                <button type="button" class="btn btn-primary  p-1 addNewCat" data-toggle="modal"
+                                    data-target="#exampleModal">
+                                    Add New Category </button>
+                                <select name="category" id="selectCat" class="selectCat p-1">
+                                    <option value="volvo">Entertainment</option>
+                                    <option value="saab">Travel</option>
+                                    <option value="mercedes">Electronics</option>
+                                    <option value="audi">Business</option>
+                                    <option value="audi">Clothing</option>
+                                    <option value="audi">Fashion</option>
+                                    <option value="audi">Sports</option>
+                                    <option value="audi">Smart Phones</option>
+                                </select>
+                            </div>
+                            <div class="modal-body">
+                                <div class="productName">
+                                    <span class="pName">Product Name :</span>
+                                    <input type="text">
+                                </div>
+                                <label for="myfile" class="pImg">Product Image : </label>
+                                <input type="file" id="myfile" name="myfile">
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary disBtn"
+                                    data-dismiss="modal">Discard</button>
+                                <button type="button" class="btn btn-primary spBtn">Save Product</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </form>
+        </div>
+    </nav>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'addNewCategory')">Add New Category</button>
+        <button class="tablinks" onclick="openCity(event, 'Shirts')" id="defaultOpen">Shirts</button>
+        <button class="tablinks" onclick="openCity(event, 'Pants')">Pants</button>
+        <button class="tablinks" onclick="openCity(event, 'Shorts')">Shorts</button>
+        <button class="tablinks" onclick="openCity(event, 'UnderwearsForMen')">Underwears for Men</button>
+        <button class="tablinks" onclick="openCity(event, 'ShalwarKameez')">Shalwar Kameez</button>
+        <button class="tablinks" onclick="openCity(event, 'Watches')">Watches</button>
+        <button class="tablinks" onclick="openCity(event, 'Sports')">Sports</button>
+        <button class="tablinks" onclick="openCity(event, 'Braclets')">Braclets</button>
+
+    </div>
+
+    <div id="addNewCategory" class="tabcontent">
+        <h3 class="addCat">Add New Category</h3>
+        <hr>
+        <div class="catName">
+            <span class="catLabel">Category Name : </span>
+            <input type="text" class="enterCat">
+        </div>
+        <hr>
+        <div class="catButton d-flex justify-content-end">
+            <div class="disCat pr-2"> <button class="btn btn-secondary ">Discard</button></div>
+            <div class="savCat"><button class="btn btn-primary ">Save Category</button></div>
+        </div>
+    </div>
+
+    <div id="Shirts" class="tabcontent">
+        <div class="addNewPro pt-3 d-flex justify-content-between">
+            <h2>Shirts</h2>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addNewPro">
+                Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="addNewPro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Pants" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <div id="Shorts" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <div id="UnderwearsForMen" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <div id="ShalwarKameez" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <div id="Watches" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <div id="Sports" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <div id="Braclets" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+
+
+    <!-- JS file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
