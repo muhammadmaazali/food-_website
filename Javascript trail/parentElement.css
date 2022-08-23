@@ -1,0 +1,52 @@
+.outer {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.one {
+    width: 200px;
+    padding: 20px;
+}
+
+.two {
+    width: 200px;
+}
+
+.three {
+    width: 200px;
+}
+
+.four {
+    width: 200px;
+}
+
+.white {
+    background-color: rgb(255, 255, 255);
+}
+
+.red {
+    background-color: red;
+}
+
+.tan {
+    background-color: tan;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.crimson {
+    background-color: coral;
+}
+.black{
+    background-color: rgb(168, 212, 105);
+}
+
+.new {
+    height: 120px;
+}

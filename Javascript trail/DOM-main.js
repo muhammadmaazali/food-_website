@@ -168,16 +168,16 @@
 //     document.getElementsByClassName("header")[0].removeEventListner("mouseleave",abc);
 // }
 
-var element;
-document.getElementById("bbsn").addEventListener("mouseleave",abc);
-document.getElementById("bbsn").addEventListener("click",xyz);
+// var element;
+// document.getElementById("bbsn").addEventListener("mouseleave",abc);
+// document.getElementById("bbsn").addEventListener("click",xyz);
 
-function abc(){
-    document.getElementById("bbsn").style.background="green";
-}
-function xyz(){
-    document.getElementById("bbsn").removeEventListener("mouseleave",abc);
-}
+// function abc(){
+//     document.getElementById("bbsn").style.background="green";
+// }
+// function xyz(){
+//     document.getElementById("bbsn").removeEventListener("mouseleave",abc);
+// }
 // function abc(){
 //     document.getElementById("bbsn").style.background="green";
 // }
