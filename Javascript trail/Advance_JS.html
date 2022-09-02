@@ -1,0 +1,97 @@
+<script>
+    // var arr1 = [10, 25, 36, 25];
+    // var arr2 = [50, 60, 80];
+    // var arr3 = [...arr1, ...arr2];
+    // console.log(arr3);
+
+
+    // var obj1 = {
+    //     name: "Maaz Ali"
+    // };
+
+    // var obj2 = {
+    //     location: "Islamabad"
+    // };
+
+    // var finalobj = { ...obj2, ...obj1 }
+
+    // console.log(finalobj);
+
+
+    // let hello = () => console.log("hello");
+    // hello();
+
+
+    // let name = "Maaz Ali";
+    // let course = "BS HOns";
+
+    // var obj = {
+    //     name,
+    //     course
+    // };
+    // console.log (obj);
+
+
+    let n = "name";
+    let c = "course";
+
+    var obj = {
+        ["student" + n]: "maaz Ali",
+        ["student" + c]: "Bs hons",
+        studentdetail() {
+            return `${this.studentname} is student of ${this.studentcourse}`
+        }
+
+    }
+    console.log(obj);
+    console.log(obj.studentdetail());
+
+    // let fname = "Muhammad Maaz";
+    // let lname = "Ali";
+    // let course = "Javascript";
+
+    // function student(fname, lname, course) {
+    //     let fullname = fname + " " + lname;
+    //     return { fullname, course };
+
+    // }
+
+    // let s = student(fname, lname, course);
+    // console.log(s);
+
+    // let user = ;
+    // let [name,age,city] = user;
+
+
+    // document.write(gender + "<br>");
+    // document.write(salary + "<br>");
+
+    // function user([name, age, city]) {
+    //     document.write(name + "<br>");
+    //     document.write(age + "<br>");
+    //     document.write(city);
+    // }
+    // user(["Maaz ali", 22, "Islamabad"])
+
+
+    let user = {
+        name: "Muhammad maaz Ali",
+        age: 22,
+        city: "Islamabad",
+    };
+
+    let { name, age, city } = user;
+
+    console.log(age);
+    console.log(name);
+    console.log(city);
+
+    // var arr = [10, 20, 30, 40, 50, 50, 60];
+    // var f = 0;
+    // for (let z of arr) {
+    //     f = f + arr;
+    //     console.log(f);
+
+    // }
+
+</script>

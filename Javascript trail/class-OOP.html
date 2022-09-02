@@ -1,0 +1,112 @@
+<!-- <script>
+    class hello {
+        constructor(name, age) {
+            this.studentname = name;
+            this.studentage = age;
+            console.log("cunstructor Function");
+        }
+        hey() {
+            console.log(`bye  ${this.studentname}  your age is   ${this.studentage}`);
+        }
+        static staticmethod() {
+            console.log("static method")
+        }
+    }
+    let a = new hello("Maaz ALi", 22);
+    // let b = new hello("YAsir alam", 28);
+
+    // a.name = "yahoo baba";
+    a.hey();
+    // b.hey()
+    hello.staticmethod();
+</script> -->
+
+<!-- <script>
+    class company {
+        name = "zeeshan Khan";
+        salary = 30000;
+        mName = "yasir Alam";
+        location = "Islamabad";
+        constructor() {
+            console.log(this.name, this.salary);
+        }
+        companyManager() {
+
+            console.log(`${this.mName}`)
+        }
+        static companyLocation(a) {
+
+            console.log(a.location)
+        }
+    }
+
+    class bulding extends company {
+        constructor() {
+            super();
+
+            console.log(this.name, this.salary)
+        }
+        companyManager() {
+
+            console.log(this.mName)
+        }
+        static companyLocation(location) {
+
+            console.log(a.location)
+        }
+    }
+
+    let a = new bulding();
+    a.companyManager();
+    company.companyLocation(a);
+</script> -->
+<script>
+    class employee {
+        private empName: string;
+        private empAge: number;
+        private empSalary: number;
+
+        constructor(name, age, salary) {
+            this.empName = name;
+            this.empAge = age;
+            this.empSalary = salary;
+            console.log(`constructor : Employee  ${this.empSalary}`)
+        }
+
+        info() {
+            document.write(`<h3>Employee Class</h3>
+                        Name : ${this.empName} <br>
+                        Age : ${this.empAge} <br>
+                        Salary : ${this.empSalary}`)
+        }
+    }
+
+    class manager extends employee {
+        projects;
+
+        constructor() {
+            console.log('default constructor exicuted')
+        }
+
+        // constructor(name, age, salary, projects) {
+        //     super(name, age, salary);
+        //     this.projects = projects;
+        // }
+
+        info() {
+            let la = 1000;
+            let pa = 3000;
+            let totalsalary = this.empSalary + la + pa;
+            document.write(`<h3>Manager Class</h3>
+                        Name : ${this.empName} <br>
+                        Age : ${this.empAge} <br>
+                        Salary : ${totalsalary}`)
+            super.info();
+        }
+    }
+    let a = new manager();
+    a.name = null;
+    // let b = new employee("Yahoo Baba", 22, 12000);
+    a.info();
+    // b.info();
+</script>
