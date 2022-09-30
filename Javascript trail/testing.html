@@ -1,34 +1,312 @@
 <html>
 
 <head>
-    <script>
-        // var a = [10,20,30,40]
-        // var b = a.findD(checkage)
-        // document.write(b);
+    <div>
+        <script>
+            // var a = [10,20,30,40]
+            // var b = a.findD(checkage)
+            // document.write(b);
 
-        // function checkage(age){
-        //     return age >= 10;
-        // }
-        // var text = 'Lorem Ipsum is simply dummy text of the printing and  is typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is to make a type specimen book.'
-        // var matchText = text.match(/is/g);
-        // document.write(matchText);
+            // function checkage(age){
+            //     return age >= 10;
+            // }
+            // var text = 'Lorem Ipsum is simply dummy text of the printing and  is typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled is to make a type specimen book.'
+            // var matchText = text.match(/is/g);
+            // document.write(matchText);
 
-        // var temp = 56;
-        // var c = parseFloat((temp - 32) / 1.7999999999999998);
-        // if (c > 0) {
-        //     console.log(c + " " + "is above freezing temperature");
-        // } else {
-        //     console.log(c + " " + "is freezing temperature");
-        // }
-        var a = [2, 3, 4, 5];
-        sum = 1;
-        for (let z of a) {
-            sum *= z;
-        }
-        console.log(sum)
+            // var temp = 56;
+            // var c = parseFloat((temp - 32) / 1.7999999999999998);
+            // if (c > 0) {
+            //     console.log(c + " " + "is above freezing temperature");
+            // } else {
+            //     console.log(c + " " + "is freezing temperature");
+            // }
 
 
-    </script>
+            /* var a = [2, 3, 4, 5];
+             sum = 1;
+             for (let z of a) {
+                 sum *= z;
+             }
+             console.log(sum)*/
+
+            // var a = "<h2>Hello World</h2>"
+
+            // console.log(a.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;"));
+
+            //function htmlspecialchars(formData) {
+            //  return (formData.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/'/g, "&quot;"))// Insert your code here
+            //}
+            //console.log(htmlspecialchars("<h2>Hello World</h2>"))
+
+            var x1 = 0;
+            var x2 = 1;
+            var x = 1;
+            let f = [];
+            var b = x * x;
+            var c = (x * -x2) - (x1 * x);
+            var e = (-x1 * -x2)
+            f.push(b);
+            f.push(c);
+            f.push(e);
+            console.log(b);
+            console.log(c)
+            console.log(f);
+
+
+            var p = 19;
+            if (p % 2 == 0 || p % 3 == 0 || p % 5 == 0 || p % 7 == 0 || p % 9 == 0 || p % 11 == 0) {
+                console.log(false);
+
+            } else {
+                console.log(true);
+            }
+
+
+            const flip = (d, a) => {
+                a.sort();
+
+                if (d == 'L')
+                    a.reverse();
+
+                return a;
+
+            }
+            console.log("this one")
+            console.log(flip("L", [3, 2, 1, 2]));
+
+
+            const N = 4;
+            var n = [];
+            for (let i = 0; i < N; i++) {
+                n.push(i);
+            }
+            console.log(n);
+
+            const a = 2;
+            var c = [];
+            for (let i = 0; i <= a; i++) {
+                var b = Math.pow(2, i)
+                c.push(b);
+            }
+            console.log(c);
+
+
+            var number = -8.2254;
+            if (number > 0) {
+                console.log(- number);
+
+            } else if (number < 0) {
+                console.log(- number);
+
+            } else
+                console.log(0);
+
+
+
+
+
+            function countBy(x, n) {
+                let z = [];
+                //   var final = x * n;
+                for (let i = 1; i <= n; i++) {
+                    z.push(i * x);
+                }
+
+                return z;
+            }
+
+
+            var binary = "1101000" // code for 104
+            // var binary = Number;// Convert String or Digit (But it does not work !)
+            console.log(typeof binary);
+            console.log(parseInt(binary, 2));
+
+
+
+            var salary = 10000;
+            var bonus = false;
+
+            if (bonus == true)
+                console.log(`\u00A3${salary * 10}`);
+
+            else
+                console.log("\u00A3")
+
+            var d = 20;
+            console.log(d * 40 - (d >= 7 ? 50 : (d >= 3 ? 20 : 0)));
+
+
+            function expressionMatter(a, b, c) {
+                var final = [];
+                final.push(a * (b + c));
+                final.push(a * b * c);
+                final.push(a + b * c);
+                final.push((a + b) * c);
+                console.log(Math.max(...final));
+            }
+            expressionMatter(2, 1, 2);
+
+
+            var arry = new Array;
+            var g = [
+                [-25, 21, 2, -33, 48],
+                [30, 31, -32, 33, -34]
+            ];
+            g.forEach(myfunction)
+
+            function myfunction(item, index) {
+                arry += item + "\n";
+            }
+            console.log(arry.slice(0, -2));
+
+
+
+            function toCsvText(array) {
+                var newArr = new Array;
+                array.forEach(myFunction);
+
+                function myFunction(item) {
+                    newArr += item + "\n";
+                }
+                // good luck
+            }
+
+
+
+            function isDivisible(n, x, y) {
+                if (n % x == 0 && n % y == 0)
+                    console.log(true);
+
+                else
+                    console.log(false);
+            }
+
+            isDivisible(12, 3, 4);
+
+
+
+
+            var century = 1705;
+            console.log(Math.ceil(century / 100))
+
+
+
+            function billboard(name, price = 30) {
+                var total = 0;
+
+                for (let i = 0; i < name.length; i++) {
+                    total += price
+                }
+                console.log(total);
+            }
+            billboard("Jeo", 30);
+
+
+            //var n = 12334;
+            //var c = 0;
+
+            //if (n > 0) {
+            //  let s = n.toString(2).split("");
+            // s.find(equalsone);
+
+            //function equalsone() {
+            //  return s == 1;
+            //}
+            //console.log(s.l);
+            //} else {
+            //   console.log(0);
+            //}
+
+
+
+            var n = 12334;
+            let s = n.toString(2).match(/1/g);
+            ///s.find(equalsone);
+            //function equalsone() {
+            //  s == 1;
+            //}
+            console.log(s.length);
+            //var m = s.match(/1/g);
+
+
+
+            var q = "how are you doing today?";
+            //var g = [];
+            let l = 0;
+            var w = q.split(" ");
+            for (let g of w) {
+
+            }
+            // console.log(w[0].sort())
+
+            for (var o = 1; o <= 5; o++) {
+                for (var b = 1; b <= o; b++) {
+                    document.write(o);
+                }
+                document.write("<br>");
+            }
+
+
+            var date = new Date('06/02/2022');
+
+            //document.write(date);
+            //date = date.getDay();
+            //document.write(date)
+            switch (date) {
+                case 0:
+                    document.write("Sunday");
+                    break;
+                case 1:
+                    document.write("Monday");
+                    break;
+                case 2:
+                    document.write("Tuesday");
+                    break;
+                case 3:
+                    document.write("Wednesday");
+                    break;
+                case 4:
+                    document.write("Thursday");
+                    break;
+                case 5:
+                    document.write("Friday");
+                    break;
+                case 6:
+                    document.write("Saturday");
+                    break;
+            }
+
+
+            function dayOfTheWeek(date) {
+                var formatedDate = date.split('/');
+                var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+                date = new Date(`${formatedDate[1]} / ${formatedDate[0]} / ${formatedDate[2]}`);
+                return weekDays[date.getDay()]
+            }
+
+            console.log(dayOfTheWeek('06 / 02 / 2022'));
+
+
+
+            var ar = [1, 1, 2, 2, 3, 3];
+
+            var vr = [new Set(ar)];
+
+            console.log(typeof vr);
+
+
+            function inviteMoreWomen(L) {
+                
+
+            }
+            console.log(inviteMoreWomen([-1, -1, 1, -1, -1, -1, -1]));
+
+
+
+        </script>
+    </div>
 </head>
-
+<body>
+</body>
 </html>
