@@ -1,23 +1,46 @@
 <html>
 
 <head>
-    <script>
-        var a = 50;
-        console.time('test')
-        console.warn("this is just warning");
-        console.warn("this is just warning");
-        console.warn("this is just warning");
-        console.warn("this is just warning");
-        console.warn("this is just warning");
-        console.warn("this is just warning");
-        console.warn("this is just warning");
-        console.timeEnd('test')
-    </script>
+    <title>Select box</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 
 <body>
+    <div class="text bg-danger" onselect="myFunction()" value="My World">
 
+    </div>
+
+
+    <script>
+        function numberJoy(n) {
+            var splitItWithChar = n.toString().split("");
+           // console.log(splitItWithChar);
+
+            var isHarshedOrNot = 0
+            for (let x of splitItWithChar) {
+                isHarshedOrNot += +x
+              //  console.log(isHarshedOrNot);
+
+            }
+            return n % isHarshedOrNot == 0 ? true : false;
+        }
+       // console.log(numberJoy(1998));
+
+        function isSortedAndHow(array) {
+            for (let indexsOfArray = 0; indexsOfArray < array.length; indexsOfArray++) {
+                if (array[indexsOfArray] <= array[indexsOfArray + 1]) {
+                    return 'yes, ascending';
+                } else if (array[indexsOfArray] >= array[indexsOfArray + 1]) {
+                    return 'yes, descending';
+                } else
+
+                    return "no"
+
+            }
+        }
+        console.log(isSortedAndHow([4,5,2,5,7]));
+    </script>
 </body>
 
 </html>
